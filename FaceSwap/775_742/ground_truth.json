@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "preparation_signature": "e01127ef7198adddab160464eb6ad41066961800ffaec251c19cb84dc1f066cc",
+  "video_id": "775_742",
+  "method": "FaceSwap",
+  "variant": "random_two",
+  "frame_indexing": "zero_based_start_inclusive_end_exclusive",
+  "fps": "30",
+  "total_frames": 559,
+  "duration_seconds": 18.633333333333333,
+  "width": 640,
+  "height": 480,
+  "csv": {
+    "file": "temporal_rand_two_segments_gt.csv",
+    "line": 480,
+    "sha256": "3849c87e3816d772e78551417efffbf84bb8155b55d2b6f9f51d891aad248018",
+    "intervals_as_supplied": [
+      [
+        105,
+        225
+      ],
+      [
+        328,
+        478
+      ]
+    ],
+    "corrections": []
+  },
+  "sources": {
+    "original": {
+      "path": "/Users/coduric/Desktop/Research Projects/6 - Deep Fake Videos/DOVE - Code/dataset-tools/FaceForensics++_C23/original/775.mp4",
+      "size": 764112,
+      "mtime_ns": 1733549518000000000
+    },
+    "manipulated": {
+      "path": "/Users/coduric/Desktop/Research Projects/6 - Deep Fake Videos/DOVE - Code/dataset-tools/FaceForensics++_C23/FaceSwap/775_742.mp4",
+      "size": 855419,
+      "mtime_ns": 1733549368000000000
+    }
+  },
+  "alignment": {
+    "original": "/Users/coduric/Desktop/Research Projects/6 - Deep Fake Videos/DOVE - Code/dataset-tools/FaceForensics++_C23/original/775.mp4",
+    "manipulated": "/Users/coduric/Desktop/Research Projects/6 - Deep Fake Videos/DOVE - Code/dataset-tools/FaceForensics++_C23/FaceSwap/775_742.mp4",
+    "fps": "30",
+    "original_size": [
+      640,
+      480
+    ],
+    "manipulated_size": [
+      640,
+      480
+    ],
+    "sample_indices": [
+      105,
+      164,
+      224,
+      328,
+      402,
+      477
+    ],
+    "mean_image_error": 0.0057189994646857185,
+    "mean_background_error": 0.004318581971650322,
+    "max_background_error": 0.004562500398606062
+  },
+  "segments": [
+    {
+      "start_frame": 0,
+      "end_frame": 105,
+      "start_seconds": 0.0,
+      "end_seconds": 3.5,
+      "label": "Real"
+    },
+    {
+      "start_frame": 105,
+      "end_frame": 225,
+      "start_seconds": 3.5,
+      "end_seconds": 7.5,
+      "label": "Deepfake"
+    },
+    {
+      "start_frame": 225,
+      "end_frame": 328,
+      "start_seconds": 7.5,
+      "end_seconds": 10.933333333333334,
+      "label": "Real"
+    },
+    {
+      "start_frame": 328,
+      "end_frame": 478,
+      "start_seconds": 10.933333333333334,
+      "end_seconds": 15.933333333333334,
+      "label": "Deepfake"
+    },
+    {
+      "start_frame": 478,
+      "end_frame": 559,
+      "start_seconds": 15.933333333333334,
+      "end_seconds": 18.633333333333333,
+      "label": "Real"
+    }
+  ],
+  "encoding": {
+    "codec": "H.264",
+    "preset": "veryfast",
+    "crf": 23,
+    "normalization": "Manipulated frames resized to original dimensions; original frame rate and timeline retained.",
+    "audio": "No source audio"
+  },
+  "output_sha256": "ed88633559d857eb8ad474769736fed41661b7d52b968c6593f680e8f4267115",
+  "verified_video": {
+    "frames": 559,
+    "fps": "30",
+    "width": 640,
+    "height": 480
+  }
+}

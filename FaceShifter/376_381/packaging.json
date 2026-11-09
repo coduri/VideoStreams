@@ -1,0 +1,52 @@
+{
+  "signature": "f5aa6994ced4340fbd9da076451c66ce39487be5e1872da606490a458b38540f",
+  "settings": {
+    "schema_version": 1,
+    "segment_seconds": 3,
+    "bitrates": [
+      800000,
+      300000
+    ],
+    "low_width": 320,
+    "preset": "veryfast",
+    "pixel_format": "yuv420p"
+  },
+  "source_sha256": "c5906994a6f039a7e4f602291264e11dbb9b99469a3233496b3e092827018b79",
+  "representations": [
+    {
+      "id": "0",
+      "bandwidth": 800000,
+      "width": 1280,
+      "height": 720,
+      "media_segments": 7
+    },
+    {
+      "id": "1",
+      "bandwidth": 300000,
+      "width": 320,
+      "height": 180,
+      "media_segments": 7
+    }
+  ],
+  "validation": "MPD references, aligned timelines, and both rendition packet counts verified",
+  "sha256": {
+    "out.mpd": "e129229e0e01571cc9c09956da44b671d87db54be9a79f29ef3650f6738a40c7",
+    "ground_truth.json": "2a3000a02ec46f53f242f1d0b5ee0e2cea8f109ed496d1e8686dfa045e2a137b",
+    "init-0.mp4": "b5100b831375c1eb98e32ca5488f4a7955200b00f213f691829808b9939afcda",
+    "segment-0-00001.m4s": "2917918b8201074ece08d97db16483dd3c9050d9da2b2edcf27b8f57322e6929",
+    "segment-0-00002.m4s": "a90282fdebcb5318ac6eefebce017f1272391a64ef8c27c34de0e5e8f0972586",
+    "segment-0-00003.m4s": "1cb7e98c4ad8843036600f3224795ee417492abedbd2ec03e19558bdf5f56563",
+    "segment-0-00004.m4s": "dd2abdce0a1f98867d730cd821e8f5d3423793100c73f8feae6d9e0bdafd7736",
+    "segment-0-00005.m4s": "4968dbc9b79c5fb7b98a2f32dd7404273a66272ff1ec1c616476146af9f93992",
+    "segment-0-00006.m4s": "b8df470e0236df59056c6839821a8232f06dfcc04d0dd196a2a1ac4fbecf360c",
+    "segment-0-00007.m4s": "241d6f20c95078558e88079e3d0deba53b4f667dd5a41cad80d1c670e299272a",
+    "init-1.mp4": "fee93c23666a4a53c983c36ee040d3294af3e6dca0bade052f4fb6e2f38870c4",
+    "segment-1-00001.m4s": "70167f9406cbc0726ed4b09792ef304b365af0eb2ff7e49b49b370334a3cf8c5",
+    "segment-1-00002.m4s": "44c1b35c96aeca498cd85bb47b0066eeac4974a3dd04efba57a9b3fcbc8bddb6",
+    "segment-1-00003.m4s": "437b0934cb50a27e6386ae16e5e5741ad587c852d01ab7ffd56a20413e121769",
+    "segment-1-00004.m4s": "2c46d8968908a02e707322b1e73be9ae3b743c5a6f638c37c0303748d1f8571a",
+    "segment-1-00005.m4s": "add4e510c8fdf08cba268a3cceea58607cc6d4537b6fe7572ca7a1c10162c816",
+    "segment-1-00006.m4s": "1d955c163e0108a2e9be28f93b5c3c3f7e215597388e3cf8784ce5a7220a9320",
+    "segment-1-00007.m4s": "f40b10e96344f7fbcc6109f4c97b9d0584bed27299e6e52bbd2bcfe109909251"
+  }
+}
